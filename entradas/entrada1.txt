@@ -1,0 +1,35 @@
+// 2222222222 ARCHIVO 2
+// Construccion de Software 
+
+// Por favor, pasa el cursor sobre la palabra para ver su tipo. : ) 
+
+
+
+for (int i = 0; i<100; i++) {
+    cout << "Adiiiiiiiiiooooss " << i << endl;
+}
+bool npm = false;
+
+if (npm) {
+    return true;
+}
+
+float total = 55 + 42 + 553.556; 
+esEfectivo = false;
+
+if(total < 600 && esEfectivo) {
+    llorar();
+}
+
+// Nombre de la mejor materia del semestre
+string materia = "Construccion de Software" 
+char grupo = 'C';
+
+comer();
+reir();
+dormir();
+
+
+//------------------------------
+
+

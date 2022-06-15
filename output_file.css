@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Consolas;
+    src: url(https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Fraunces:wght@300;700&display=swap);
+  }
+
+body {
+    text-align: center;
+}
+div { 
+    display: inline;
+    font-family: Consolas;
+}
+
+.Numero_Entero {
+    color: #a7cea8;
+    position: relative;
+}
+.Numero_Real {
+    color: red;
+    position: relative;
+}   
+
+.Reservada {
+    color: #c57991;
+    position: relative;
+}
+
+.Variable {
+    color: #569cca;
+    position: relative;
+}
+
+.Booleano {
+    color: rgb(251, 255, 0);
+    position: relative;
+}
+
+.Identificador {
+    color: #ffffff;
+    position: relative;
+}
+
+.Comentario{
+    color: #5e9955;
+    position: relative;
+}
+
+.Funcion{
+    color: #dcb862;
+    position: relative;
+}
+
+.Operador{
+    color: rgb(27, 252, 203);
+    position: relative;
+}
+
+.Simbolo_Especial{
+    color: rgb(15, 255, 15);
+    position: relative;
+}
+.Operadores_Logicos{
+    color: #ee82ee;
+    position: relative;
+}
+
+.Caracter{
+    color: rgb(10, 150, 96);
+    position: relative;
+}
+
+.String{
+    color: #ce915b;
+    position: relative;
+}
+/*.Reservada:hover {
+    background-color: rgba(135, 207, 235, 0.267);
+    transition: 1s;
+    cursor: pointer;
+}*/
+
+.Identificador:before, .Numero_Entero:before, .Numero_Real:before, .Reservada:before, .Booleano:before, .Comentario:before, .Funcion:before, .Operador:before, .Simbolo_Especial:before, .Operadores_Logicos:before, .Caracter:before, .String:before, .Variable:before{
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+
+.Identificador:hover:before, .Numero_Entero:hover:before, .Numero_Real:hover:before, .Reservada:hover:before, .booleano:hover:before, .Comentario:hover:before, .Funcion:hover:before, .Operador:hover:before, .Simbolo_Especial:hover:before, .Operadores_Logicos:hover:before, .Caracter:hover:before, .String:hover:before, .Variable:hover:before{
+    opacity: 1;
+    visibility: visible;
+}

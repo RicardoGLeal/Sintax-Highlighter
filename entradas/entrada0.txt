@@ -1,0 +1,38 @@
+// BIENVENIDO 
+// WELCOME 
+// WILLKOMMEN!
+
+// ARCHIVO 0
+// Ricardo Gonzalez Leal A01639036 
+// Implementacion de Metodos Computacionales
+
+// Por favor, pasa el cursor sobre la palabra para ver su tipo. : ) 
+
+for (int i = 0; i<10; i++) {
+    cout << "Hola " << i << endl;
+}
+bool end = true;
+
+if (!end) {
+    return true;
+}
+
+float total = 55 + 42 + 553.556; 
+esEfectivo = false;
+
+if(total < 600 && esEfectivo) {
+    llorar();
+}
+
+// Nombre de la mejor materia del semestre
+string materia = "Implementacion" 
+char grupo = 'C';
+
+comer();
+reir();
+dormir();
+
+
+//------------------------------
+
+

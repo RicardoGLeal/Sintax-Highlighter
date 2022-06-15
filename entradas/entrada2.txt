@@ -1,0 +1,35 @@
+// 3333333333 ARCHIVO 3 
+// Redes
+
+// Por favor, pasa el cursor sobre la palabra para ver su tipo. : ) 
+
+
+
+for (int i = 0; i<100; i++) {
+    cout << "ipconfig / all" << i << endl;
+}
+bool secretClass = true;
+
+if (!secretClass) {
+    return true;
+}
+
+float hostNumber = 55 + 42 + 553.556; 
+class_A = false;
+
+if(hostNumber < 600 && class_A) {
+    llorar();
+}
+
+// Nombre de la mejor materia del semestre
+string materia = "Construccion de Software" 
+char grupo = 'C';
+
+comer();
+reir();
+dormir();
+
+
+//------------------------------
+
+
